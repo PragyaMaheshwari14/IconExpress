@@ -4,7 +4,7 @@
 
 ## 🚀 Live Demo
 
- Explore this App: [Icon-Express](https://icon-express-pragya.vercel.app/) 
+ Explore this App: [IconExpress](https://icon-express-pragya.vercel.app/) 
 
 ---
 
