@@ -5,7 +5,6 @@ import ColorPickerController from './ColorPickerController';
 import { UpdateStorageContext } from '@/context/UpdateStorageContext';
 import IconList from './IconList';
 
-
 function IconController() {
     const storageValue = JSON.parse(localStorage.getItem('value'));
     const [size, setSize] = useState(storageValue?storageValue?.iconSize:280);

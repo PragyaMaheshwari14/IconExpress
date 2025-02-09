@@ -10,11 +10,4 @@ export default defineConfig({
     },
   },
 
-  server:{
-    port:'2005',
-    strictPort:true,
-    proxy:{
-      '/png':"https://logoexpress.tubeguruji.com",
-    }
-  }
 })

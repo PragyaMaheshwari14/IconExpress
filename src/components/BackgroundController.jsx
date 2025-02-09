@@ -3,7 +3,6 @@ import { Slider } from "@/components/ui/slider"
 import ColorPickerController from './ColorPickerController'
 import { UpdateStorageContext } from '@/context/UpdateStorageContext'
 
-
 function BackgroundController() {
     const storageValue = JSON.parse(localStorage.getItem('value'));
     const[rounded, setRounded]= useState(storageValue?storageValue?.bgRounded:0)

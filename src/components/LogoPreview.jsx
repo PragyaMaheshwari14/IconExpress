@@ -3,7 +3,6 @@ import html2canvas from 'html2canvas';
 import { icons } from 'lucide-react';
 import React, { useContext, useEffect, useState } from 'react'
 
-
 const BASE_URL='https://logoexpress.tubeguruji.com'
 
 function LogoPreview({downloadIcon}) {
@@ -23,7 +22,6 @@ function LogoPreview({downloadIcon}) {
         downloadPngLogo();
      }
   }, [downloadIcon]);
-
 
   // Used to Download the icon in png format
   // {HtmltoCanvas Library}
@@ -69,22 +67,13 @@ function LogoPreview({downloadIcon}) {
             background:storageValue?.bgColor, 
          }}
         >
-          {storageValue?.icon?.includes('.png')?
-           <img src={"/png/"+storageValue?.icon} 
-            style={{
-              height:storageValue?.iconSize,
-              width:storageValue?.iconSize,
-              transform: `rotate(${storageValue?.iconRotate || 0}deg)`
-            }}
-    
-           />:
            <Icon name={storageValue?.icon} 
            color={storageValue?.iconColor}
            size={storageValue?.iconSize}
            rotate={storageValue?.iconRotate}
            />
 
-          }
+         
          
 
         </div>
