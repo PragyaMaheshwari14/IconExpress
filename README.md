@@ -4,7 +4,7 @@
 
 ## 🚀 Live Demo
 
-[Icon-Express](https://icon-express-pragya.vercel.app/) *(Replace **`#`** with the actual live link when available.)*
+[Icon-Express](https://icon-express-pragya.vercel.app/) 
 
 ---
 
